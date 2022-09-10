@@ -15,7 +15,7 @@ kubectl delete ns <namespace>
 kubectl apply -f 00-namespace.yaml
 ```
 
-## 4. Crear service
+## 4. Crear service de tipo node-port
 ```
 kubectl -n nodejs-examples apply -f 01-nodejs-calculadora-service.yaml
 ```
