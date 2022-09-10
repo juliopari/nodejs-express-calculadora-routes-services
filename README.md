@@ -22,7 +22,8 @@ docker run -p 4000:3000 nodejs-calculadora:v1
 
 ## 5. Enviar a Dockerhub
 ```
-docker login –-username juliopari –-password *****
+docker login –-u juliopari –-p *****
 docker tag nodejs-calculadora:v1 juliopari/nodejs-calculadora:v1
 docker push juliopari/nodejs-calculadora:v1
 ```
+
