@@ -15,12 +15,12 @@ npm run dev
 docker build -t nodejs-calculadora:v1 .
 ```
 
-## 3. Docker run
+## 4. Docker run
 ```
 docker run -p 4000:3000 nodejs-calculadora:v1
 ```
 
-## 3. Enviar a Dockerhub
+## 5. Enviar a Dockerhub
 ```
 docker login –-username juliopari –-password *****
 docker tag nodejs-calculadora:v1 juliopari/nodejs-calculadora:v1
