@@ -17,7 +17,7 @@ docker build -t nodejs-calculadora:v1 .
 
 ## 4. Docker run
 ```
-docker run -p 4000:3000 nodejs-calculadora:v1
+docker run --name con-nodejs-calculadora -p 4000:3000 nodejs-calculadora:v1
 ```
 
 ## 5. Enviar a Dockerhub
@@ -27,3 +27,7 @@ docker tag nodejs-calculadora:v1 juliopari/nodejs-calculadora:v1
 docker push juliopari/nodejs-calculadora:v1
 ```
 
+## 5. Desplegar en Digital Ocean
+```
+Ingresar a: /kubernetes/README.md
+```
